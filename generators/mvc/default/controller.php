@@ -9,21 +9,22 @@ use yii\helpers\StringHelper;
 /* @var $this yii\web\View */
 /* @var $generator dee\gii\generators\mvc\Generator */
 
+$controllerClass = StringHelper::basename($generator->getControllerClass());
 echo "<?php\n";
 ?>
 
 namespace <?= StringHelper::dirname(ltrim($generator->getControllerClass(), '\\')) ?>;
 
 use Yii;
+use <?= ltrim($generator->baseControllerClass, '\\') ?>;
 <?php if(!empty($generator->modelClass)):?>
 use <?= $generator->modelClass ?>;
 <?php endif;?>
 
-
 /**
-* <?= StringHelper::basename(ltrim($generator->getControllerClass(), '\\')) ?> .
+ * <?= $controllerClass ?>.
  */
- class <?= StringHelper::basename(ltrim($generator->getControllerClass(), '\\')) ?> extends <?= '\\' . trim($generator->baseControllerClass, '\\') . "\n" ?>
+class <?= $controllerClass ?> extends <?= StringHelper::basename($generator->baseControllerClass) . "\n" ?>
 {
 <?php foreach ($generator->getActionIDs() as $action): ?>
 <?php if($generator->isFormAction($action)):?>

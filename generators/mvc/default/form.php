@@ -9,10 +9,11 @@ use yii\helpers\StringHelper;
 echo "<?php\n";
 ?>
 
+use yii\web\View;
 use yii\helpers\Html;
 
 
-/* @var $this yii\web\View */
+/* @var $this View */
 /* @var $model <?= ltrim($generator->modelClass, '\\') ?> */
 
 ?>

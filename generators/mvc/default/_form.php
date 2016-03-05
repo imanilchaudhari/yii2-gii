@@ -12,10 +12,11 @@ use yii\helpers\StringHelper;
 echo "<?php\n";
 ?>
 
+use yii\web\View;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
-/* @var $this yii\web\View */
+/* @var $this View */
 /* @var $model <?= $generator->modelClass ?> */
 /* @var $form ActiveForm */
 <?= "?>" ?>

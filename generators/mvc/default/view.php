@@ -9,7 +9,11 @@
 
 echo "<?php\n";
 ?>
-/* @var $this yii\web\View */
+
+use yii\web\View;
+// use yii\helpers\Html;
+
+/* @var $this View */
 <?= "?>" ?>
 
 <h1><?= $generator->controllerID . '/' . $action ?></h1>
