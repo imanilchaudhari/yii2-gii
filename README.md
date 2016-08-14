@@ -11,13 +11,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require imanilchaudhari/yii2-gii "~1.0"
+php composer.phar require imanilchaudhari/yii2-gii "~2.0"
 ```
 
 or add
 
 ```
-"imanilchaudhari/yii2-gii": "~1.0"
+"imanilchaudhari/yii2-gii": "~2.0"
 ```
 
 to the require section of your `composer.json` file.
