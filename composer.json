@@ -1,17 +1,17 @@
 {
-	"name": "deesoft/yii2-gii",
+	"name": "imanilchaudhari/yii2-gii",
 	"description": "Yii2 custom generator for gii",
 	"keywords": ["yii2", "gii"],
 	"type": "yii2-extension",
 	"license": "BSD-3-Clause",
 	"support": {
-		"issues": "https://github.com/deesoft/yii2-gii/issues",
-		"source": "https://github.com/deesoft/yii2-gii"
+		"issues": "https://github.com/imanilchaudhari/yii2-gii/issues",
+		"source": "https://github.com/imanilchaudhari/yii2-gii"
 	},
 	"authors": [
 		{
-			"name": "Misbahul Munir",
-			"email": "misbahuldmunir@gmail.com"
+			"name": "Anil Chaudhari",
+			"email": "caanil90@gmail.com"
 		}
 	],
 	"require": {
