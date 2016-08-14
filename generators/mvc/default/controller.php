@@ -7,7 +7,7 @@ use yii\helpers\Inflector;
 use yii\helpers\StringHelper;
 
 /* @var $this yii\web\View */
-/* @var $generator dee\gii\generators\mvc\Generator */
+/* @var $generator imanilchaudhari\gii\generators\mvc\Generator */
 
 $controllerClass = StringHelper::basename($generator->getControllerClass());
 echo "<?php\n";

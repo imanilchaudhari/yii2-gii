@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace dee\gii\generators\crud;
+namespace imanilchaudhari\gii\generators\crud;
 
 use Yii;
 use yii\web\Controller;
@@ -31,7 +31,7 @@ class Generator extends \yii\gii\generators\crud\Generator
      */
     public function getName()
     {
-        return 'Dee CRUD Generator';
+        return 'imanilchaudhari CRUD Generator';
     }
 
     /**

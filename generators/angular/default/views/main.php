@@ -2,11 +2,11 @@
 /**
  * This is the template for generating a CRUD controller class file.
  */
-
+use yii\helpers\Inflector;
 use yii\helpers\StringHelper;
 
 /* @var $this yii\web\View */
-/* @var $generator dee\gii\generators\angular\Generator */
+/* @var $generator imanilchaudhari\gii\generators\angular\Generator */
 
 $restName = StringHelper::basename($generator->modelClass);
 $resourceUrl = '/' . (empty($generator->restControllerID) ? $restName : $generator->restControllerID);
@@ -15,13 +15,15 @@ $prefixRoute = empty($generator->prefixRoute) ? '' : trim($generator->prefixRout
 echo "<?php\n";
 ?>
 use yii\helpers\Url;
-use dee\angular\NgView;
+use imanilchaudhari\angular\NgView;
 
 /* @var $this yii\web\View */
+
+$this->title = <?= $generator->generateString(Inflector::pluralize(Inflector::camel2words(StringHelper::basename($generator->modelClass)))) ?>;
 ?>
 <?php echo "<?=\n" ?>
 NgView::widget([
-    'requires' => ['ngResource','ui.bootstrap','dee.ui'],
+    'requires' => ['ngResource','ui.bootstrap','imanilchaudhari.ui'],
     'routes' => [
         '/<?= $prefixRoute; ?>' => [
             'view' => 'index',

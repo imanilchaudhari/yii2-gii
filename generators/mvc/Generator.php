@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace dee\gii\generators\mvc;
+namespace imanilchaudhari\gii\generators\mvc;
 
 use Yii;
 use yii\gii\CodeFile;
@@ -64,7 +64,7 @@ class Generator extends \yii\gii\Generator
      */
     public function getName()
     {
-        return 'Dee MVC Generator';
+        return 'imanilchaudhari MVC Generator';
     }
 
     /**

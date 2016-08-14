@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\helpers\StringHelper;
 
 /* @var $this yii\web\View */
-/* @var $generator dee\gii\generators\angular\Generator */
+/* @var $generator imanilchaudhari\gii\generators\angular\Generator */
 
 /* @var $model \yii\db\ActiveRecord */
 $model = new $generator->modelClass();
@@ -15,7 +15,7 @@ if (empty($safeAttributes)) {
 
 echo "<?php\n";
 ?>
-use dee\angular\NgView;
+use imanilchaudhari\angular\NgView;
 
 /* @var $this yii\web\View */
 /* @var $widget NgView */

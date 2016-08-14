@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace dee\gii\generators\angular;
+namespace imanilchaudhari\gii\generators\angular;
 
 use Yii;
 use yii\web\Controller;
@@ -19,7 +19,7 @@ use yii\gii\CodeFile;
  *
  * @author Misbahul D Munir <misbahuldmunir@gmail.com>
  */
-class Generator extends \dee\gii\generators\crud\Generator
+class Generator extends \imanilchaudhari\gii\generators\crud\Generator
 {
     public $restControllerID;
     public $baseRestControllerClass = 'yii\rest\ActiveController';

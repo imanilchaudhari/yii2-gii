@@ -1,7 +1,7 @@
 <?php
 /* @var $this yii\web\View */
 /* @var $form yii\widgets\ActiveForm */
-/* @var $generator dee\gii\generators\mvc\Generator */
+/* @var $generator imanilchaudhari\gii\generators\mvc\Generator */
 
 echo $form->field($generator, 'controllerID');
 echo $form->field($generator, 'actions');

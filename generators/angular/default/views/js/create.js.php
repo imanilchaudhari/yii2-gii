@@ -6,7 +6,7 @@
 use yii\helpers\StringHelper;
 
 /* @var $this yii\web\View */
-/* @var $generator dee\gii\generators\angular\Generator */
+/* @var $generator imanilchaudhari\gii\generators\angular\Generator */
 
 $class = $generator->modelClass;
 $pks = $class::primaryKey();

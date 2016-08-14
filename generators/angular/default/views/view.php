@@ -3,7 +3,7 @@
 use yii\helpers\StringHelper;
 
 /* @var $this yii\web\View */
-/* @var $generator dee\gii\generators\angular\Generator */
+/* @var $generator imanilchaudhari\gii\generators\angular\Generator */
 
 /* @var $model \yii\db\ActiveRecord */
 $model = new $generator->modelClass();
@@ -11,7 +11,7 @@ $prefixRoute = empty($generator->prefixRoute) ? '' : trim($generator->prefixRout
 
 echo "<?php\n";
 ?>
-use dee\angular\NgView;
+use imanilchaudhari\angular\NgView;
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
